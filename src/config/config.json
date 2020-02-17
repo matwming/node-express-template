@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123",
+    "database": "",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": 3306,
+    "define": {
+      "timestamp": true
+    }
+  },
+  "staging": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  }
+}

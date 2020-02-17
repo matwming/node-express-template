@@ -1,5 +1,5 @@
 import {Request, Response, RequestHandler} from "express";
-import {HttpRequest} from "../config";
+import {HttpRequest} from "../config/config";
 
 export const check: RequestHandler = (req: Request, res: Response) => {
     let requestData = req.body;
